@@ -1,0 +1,25 @@
+#navbar {
+  position: relative;
+  width: 100%; /* Ocupe todo el ancho disponible */
+  height: 100vh; /* Ocupe toda la altura de la ventana */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden; /* Asegúrate de que no se desborde el contenido */
+}
+
+#fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:21%; /* Ocupe todo el ancho del contenedor */
+  height: 100%; /* Ocupe todo el alto del contenedor */
+  object-fit: cover; /* Mantiene la proporción de la imagen sin cortarse */
+  z-index: -1; /* Envía la imagen al fondo detrás del contenido */
+}
+
+#titulo{
+    color: white;
+}

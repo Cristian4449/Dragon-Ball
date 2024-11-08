@@ -1,0 +1,27 @@
+#home-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/originals/c0/26/dd/c026dd25039fc189d7551a0a70318b78.jpg");
+    background-size: cover; /* Asegura que la imagen cubra el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    filter: brightness(0.9) contrast(1.1) saturate(1.3)
+    drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.7));
+}
+
+#LogoHeader {
+    height: 150px;
+    /* Ajusta la altura para hacer la imagen más pequeña */
+    width: auto;
+    /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 0 auto;
+    /* Centra la imagen horizontalmente */
+}
+
+#characters {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

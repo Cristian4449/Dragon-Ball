@@ -1,0 +1,38 @@
+#my-info-container2 {
+    margin-top: 0;  /* Remover el margen superior */
+    display: flex;
+    justify-content: center;
+    align-items: center;  /* Centra verticalmente el contenido */
+    background-image: url("https://external-preview.redd.it/BJzdbkyivqmnS5xrWk1q0Tp3kZWgeJCoL4O-lizcfDs.jpg?auto=webp&s=035b7e6a08bd164b380e9ca34eb55a49142e8912");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(0.9) contrast(1.1) saturate(1.3) drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.7));
+}
+
+#my-info-card2 {
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Añadir un fondo blanco semitransparente */
+    border-radius: 10px;  /* Agregar bordes redondeados */
+}
+
+#my-avatar2 {
+    border: 2px solid #3f51b5;
+}
+
+#my-info-text2 {
+    margin-top: 10px;
+}
+
+#contact-button2 {
+    margin-top: 20px;
+}
+
+#card-image2 {
+    width: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+}

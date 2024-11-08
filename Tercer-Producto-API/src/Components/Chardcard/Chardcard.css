@@ -1,0 +1,94 @@
+/* Contenedor de las tarjetas */
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Tres columnas con un tamaño mínimo */
+    gap: 20px;
+    /* Espacio entre las tarjetas */
+    justify-items: center;
+}
+
+#card {
+    width: 395px;
+    /* Asegura que todas tengan la misma altura */
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    /* Para que el contenido esté bien alineado */
+}
+
+#card:hover {
+    transform: scale(1.05);
+}
+
+/* Ajuste de imagen */
+#card-image {
+    width: 100%;
+    height: 500px;
+    /* Mantén una altura fija para las imágenes */
+    object-fit: contain;
+    /* Asegura que la imagen se ajuste sin recortarse */
+    border-radius: 15px 15px 0 0;
+    background-image: url("https://glbes.dokkaninfo.com/assets/global/es/character/card/1024280/card_1024280_bg.png");
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/* Contenido de la tarjeta centrado */
+#card-content {
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: #4A4A4A;
+}
+
+/* Títulos */
+#card-title {
+    font-weight: bold;
+    color: white;
+}
+
+#card-subtitle {
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Información con íconos */
+#card-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#card-info-icon {
+    margin-right: 8px;
+    font-size: 1.5rem;
+    /* Ajustar tamaño de los íconos */
+}
+
+/* Estilo del texto de la información */
+#card-info-text {
+    font-size: 1rem;
+    color: white;
+}
+
+/* Grid para los datos de Ki */
+#card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Dos columnas */
+    gap: 10px;
+    justify-items: center;
+}
+
+#grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
